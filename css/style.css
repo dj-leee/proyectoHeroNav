@@ -1,0 +1,44 @@
+header{
+    background-color: #fcfeff;
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    & ul{
+    display: flex;
+    gap: 20px;
+    }
+}
+
+.contenido {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+
+    article{
+        h1{
+            font-size: 70px;
+        }
+        
+        a{
+            color: aliceblue;
+            background-color: black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            width: fit-content;
+        }
+    }
+}
+
+.contacto {
+    padding: 0 20px;
+    border-left: 2px solid black
+    display: flex;
+}
+
